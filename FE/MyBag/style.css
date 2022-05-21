@@ -1,0 +1,20 @@
+@font-face /*perintah untuk memanggil font eksternal*/ {
+  font-family: "Metropolis";
+  src: url("font/Metropolis/Metropolis-Regular.otf"); /*memanggil file font eksternalnya di folder nexa*/
+}
+
+body {
+  font-family: "Metropolis";
+  color: black;
+}
+
+.form-control {
+  width: 500px;
+  height: 35px;
+  border-radius: 50px;
+  margin-left: 50px;
+}
+
+.filter {
+  border: 1px solid grey;
+}
