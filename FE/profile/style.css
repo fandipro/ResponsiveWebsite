@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+.myContainer {
+    width: 100%;
+    display: flex;
+    
+}
+
+.coulumnProfile {
+    position: relative;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    /* width: 20%; */
+    /* background-color: blue; */
+    /* text-align: right; */
+    /* right: 20px; */
+
+}
+
+.coulumnForm {
+    /* width: 80%; */
+    height: 580px;
+    flex-grow: 4;
+    background-color: #F5F5F5;
+   
+}
+
+.edit img {
+    border-radius: 50%;
+}
+
+i p {
+    color: red;
+    display: inline;
+
+}
+
+.circle {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.account {
+    background-color: #456BF3;
+}
+
+.address {
+    background-color: #F36F45;
+}
+
+.clipboard {
+    background-color: #F3456F;
+}
+
+.containerProfile {
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.text {
+    border-bottom: 1px solid grey;
+}
+
+.select {
+    display: inline;
+}
+
+.btnSave {
+    background-color: #DB3022;
+    width: 100px;
+    margin-left: 50px;
+    /* position: absolute; */
+}
+
+.paspoto {
+    border-left: 1px solid grey;
+    height: 120px;
+    text-align:  center;
+}
+
+.paspoto img {
+    border-radius: 50%;
+}

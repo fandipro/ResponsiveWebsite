@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="logoBlanja.png" alt="" width="32" height="44"
+                        class="me-2" /> Blanja
+                </a>
+                <form class="d-flex ms-auto search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn filter btn-light me-2" type="submit"><i class="bi bi-funnel"></i></button>
+                </form>
+                <div class="tools"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse my-auto" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <button class="btn btn-light" type="submit"><i class="bi bi-cart2"></i></button>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <button class="btn btn-light" type="submit"><i class="bi bi-bell"></i></button>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <button class="btn btn-light" type="submit"><i class="bi bi-envelope"></i></button>
+                        </li>
+                        <li class="nav-item ms-1">
+                            <button class="btn btn-light" type="submit"><img src="fp.png" alt="foto" /></button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <div class="myContainer">
+                <div class="coulumnProfile">
+                    <div class="edit d-flex flex-column my-auto mt-5">
+                        <div class="per d-flex">
+                            <img src="person.png" alt="cristianPhoto">
+                            <div class="name d-flex flex-column">
+                                <p class="fw-bold ms-3">Johanes Mikael</p>
+                                <i class="bi bi-pencil ms-3">
+                                    <p class="ms-2">Edit Profile</p>
+                                </i>
+                            </div>
+                        </div>
+                        <div class="d-flex mt-5">
+                            <div class="circle account"><img src="user 1.png" alt=""></i></div>
+                            <p class="ms-3">My Account</p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="circle address"><img src="map-pin (3) 1.png" alt=""></div>
+                            <p class="ms-3">Shipping Address</p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="circle clipboard">
+                                <img src="clipboard 1.png" alt="">
+                            </div>
+                            <p class="ms-3">My Order</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coulumnForm d-flex justify-content-center">
+                    <div class="containerProfile bg-white">
+                        <div class="row">
+                            <div class="col">
+                                <h5>My profile</h5>
+                                <p>Manage your profile information</p>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-7 bg me-4">
+                                <div class="mb-3 row ms-1">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Nama</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" placeholder="Fandi Prasetyo" class="form-control" id="inputPassword">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row ms-1">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row ms-1">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Phone Number</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row ms-1">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Gender</label>
+                                    <div class="col-sm-10 my-auto">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Laki-Laki</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mb-3 row ms-1">
+                                    <label for="inputPassword" class="col-sm-2 col-form-label">Gender</label>
+                                    <div class="col-sm-10 d-flex my-auto">
+                                        <select class="form-select form-select-lg mb-3"
+                                            aria-label=".form-select-lg example">
+                                            <option selected>1</option>
+                                        </select>
+                                        <select class="form-select form-select-lg mb-3 ms-3"
+                                            aria-label=".form-select-lg example">
+                                            <option selected>Januari</option>
+                                        </select>
+                                        <select class="form-select form-select-lg mb-3 ms-3"
+                                            aria-label=".form-select-lg example">
+                                            <option selected>1990</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button type="button" class="btnSave btn-danger rounded-pill ms-5">Save</button>
+                            </div>
+                            <div class="col-3 ms-4 paspoto">
+                                <img src="cristian.png" alt="">
+                                <button type="button" class="btn btn-danger btn-light rounded-pill ms-">Select Image</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</html>
