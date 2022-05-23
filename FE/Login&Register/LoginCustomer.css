@@ -24,11 +24,11 @@ h4 {
   width: 123px;
   height: 48px;
   background-color: #db3022;
-  color: #db3022;
+  color: white;
 }
 
 .sl {
-  color: white;
+  color: #db3022;
 }
 
 .btnSubmit {

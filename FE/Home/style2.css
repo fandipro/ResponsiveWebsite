@@ -1,3 +1,7 @@
+main {
+  padding-top: 5rem;
+}
+
 .form-control {
   width: 250px;
   height: 35px;
@@ -126,6 +130,39 @@
   margin-left: -15px;
 }
 
+.caraousell {
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.j1 {
+  position: absolute;
+  left: 0;
+  /* height: 100%; */
+  width: 6%;
+}
+
+.j2 {
+  position: absolute;
+  /* width: 42px; */
+  width: 40%;
+  /* left: 150px; */
+  left: 9%;
+}
+
+.j3 {
+  /* margin-left: 490px; */
+  margin-left: 50%;
+  position: absolute;
+  /* width: 456px; */
+  width: 40%;
+}
+
+.j4 {
+  right: 0;
+  position: absolute;
+  width: 6%;
+}
 @media screen and (max-width: 768px) {
   .form-control {
     width: 100px;
