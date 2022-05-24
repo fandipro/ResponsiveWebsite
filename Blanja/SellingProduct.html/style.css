@@ -1,3 +1,39 @@
+@font-face
+
+/*perintah untuk memanggil font eksternal*/
+    {
+    font-family: "Metropolis";
+    src: url("font/Metropolis/Metropolis-Regular.otf");
+    /*memanggil file font eksternalnya di folder nexa*/
+}
+
+body {
+    font-family: "Metropolis";
+}
+
+.search {
+    width: 500px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 50px;
+}
+
+#title {
+ color: #DB3022;
+}
+
+.btnSelect {
+    border: .5px solid grey;
+}
+
+.btnSort {
+    width: 30px;
+    height: 30px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+
 .menu {
   background-color: white;
 }
@@ -101,5 +137,6 @@ hr {
 
 .btnUpdate {
   width: 160px;
-  border: none;
+  border: 1px solid grey;
+  margin-bottom: 20px;
 }

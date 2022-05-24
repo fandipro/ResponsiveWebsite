@@ -1,372 +1,380 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="stylesheet" href="style2.css" />
-    <title>Home</title>
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style2.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#"> <img src="logoBlanja.png" alt="" width="32" height="44" class="me-2" /> Blanja
+      </a>
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button class="btn btn-light me-2" type="submit"><i class="fa-solid fa-filter"></i></button>
+      </form>
+      <div class="tools"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse my-auto" id="navbarNav">
+        <ul class="navbar-nav ms-auto ps-2">
+          <li class="nav-item"></li>
+          <li class="nav-item">
+            <img class="me-4 mt-2 cart" src="assets/image/shopping-cart (2) 1.png" alt="cart" />
+          </li>
+          <li class="nav-item ms-2 mt-2">
+            <button class="btnLogin">Login</button>
+          </li>
+          <li class="nav-item ms-2 mt-2">
+            <button class="btnSignIn">Sign In</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Akhir Navbar -->
+
+  <main>
+    <section id="carausell">
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src="logoBlanja.png" alt="" width="32" height="44" class="me-2" /> Blanja </a>
-        <form class="d-flex ms-auto">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn btn-light me-2" type="submit"><i class="fa-solid fa-filter"></i></button>
-        </form>
-        <div class="tools"></div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse my-auto" id="navbarNav">
-          <ul class="navbar-nav ms-auto ps-2">
-            <li class="nav-item"></li>
-            <li class="nav-item">
-              <img class="me-4 mt-2 cart" src="assets/image/shopping-cart (2) 1.png" alt="cart" />
-            </li>
-            <li class="nav-item ms-2 mt-2">
-              <button class="btnLogin">Login</button>
-            </li>
-            <li class="nav-item ms-2 mt-2">
-              <button class="btnSignIn">Sign In</button>
-            </li>
-          </ul>
+        <div class="row justify-content-center mt-4">
+          <div class="col-12 caraousell">
+            <img class="j1" src="assets/image/jumbotron/1.png" alt="" />
+            <img class="j2 bg-warning" src="assets/image/jumbotron/2.png" alt="" />
+            <img class="j3" src="assets/image/jumbotron/3ty.png" alt="" />
+            <img class="j4" src="assets/image/jumbotron/4.png" alt="" />
+          </div>
+        </div>
+    </section>
+    <section id="Category">
+      <div class="container">
+        <div class="row text-start mb-3">
+          <div class="col">
+            <h4>Category</h4>
+            <p>What are you currently looking for</p>
+          </div>
+        </div>
+        <div class="row mb-3 bg-primary">
+          <div class="col-2 col-sm-1 kotak me-2" id="t=shirts">
+            <img src="assets/image/category/t-shirt.png" alt="" />
+            <p>T-Shirts</p>
+          </div>
+          <div class="col-sm-1 kotak me-2" id="shorts">
+            <img src="assets/image/category/shorts.png" alt="" />
+            <p>Shorts</p>
+          </div>
+          <div class="col-2 col-sm-1 kotak me-2" id="jacket">
+            <img src="assets/image/category/jackets.png" alt="" />
+            <p>Jacket</p>
+          </div>
+          <div class="col-2 col-sm-1 kotak me-2" id="pants">
+            <img src="assets/image/category/pants.png" alt="" />
+            <p>Pants</p>
+          </div>
+          <div class="col-2 col-sm-1 kotak" id="shoes">
+            <img src="assets/image/category/shoes.png" alt="" />
+            <p>Shoes</p>
+          </div>
+          <div class="rounded-circle circle"><img src="assets/image/category/rigth.png" alt="" /></div>
         </div>
       </div>
-    </nav>
+    </section>
 
-    <!-- Akhir Navbar -->
-
-    <main>
-        <section id="carausell">
-          <div class="container">
-            <div class="row justify-content-center mt-4">
-            <div class="col-12 col-md-10 col-lg-12 col-xl-12 caraousell">
-              <img class="j1" src="assets/image/jumbotron/1.png" alt="" />
-              <img class="j2 bg-warning" src="assets/image/jumbotron/2.png" alt="" />
-              <img class="j3" src="assets/image/jumbotron/3ty.png" alt="" />
-              <img class="j4" src="assets/image/jumbotron/4.png" alt="" />
+    <section id="new-prod uct">
+      <div class="container">
+        <div class="row text-start mb-3">
+          <div class="col">
+            <h4>Produk</h4>
+            <p>What are you currently looking for</p>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-lg-5 row-cols-xxl-5 coba">
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                </div>
+              </div>
             </div>
           </div>
-        </section>
-        <section id="Category">
-          <div class="container">
-            <div class="row text-start mb-3">
-              <div class="col">
-                <h4>Category</h4>
-                <p>What are you currently looking for</p>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                </div>
               </div>
-            </div>
-            <div class="row mb-3 bg-primary">
-              <div class="col-2 col-sm-1 kotak me-2" id="t=shirts">
-                <img src="assets/image/category/t-shirt.png" alt="" />
-                <p>T-Shirts</p>
-              </div>
-              <div class="col-sm-1 kotak me-2" id="shorts">
-                <img src="assets/image/category/shorts.png" alt="" />
-                <p>Shorts</p>
-              </div>
-              <div class="col-2 col-sm-1 kotak me-2" id="jacket">
-                <img src="assets/image/category/jackets.png" alt="" />
-                <p>Jacket</p>
-              </div>
-              <div class="col-2 col-sm-1 kotak me-2" id="pants">
-                <img src="assets/image/category/pants.png" alt="" />
-                <p>Pants</p>
-              </div>
-              <div class="col-2 col-sm-1 kotak" id="shoes">
-                <img src="assets/image/category/shoes.png" alt="" />
-                <p>Shoes</p>
-              </div>
-              <div class="rounded-circle circle"><img src="assets/image/category/rigth.png" alt="" /></div>
             </div>
           </div>
-        </section>
-  
-        <section id="new-prod uct">
-          <div class="container">
-            <div class="row text-start mb-3">
-              <div class="col">
-                <h4>Produk</h4>
-                <p>What are you currently looking for</p>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                </div>
               </div>
             </div>
-            <div class="row row-cols-1 row-cols-lg-5 row-cols-xxl-5 coba">
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
+            </div>
+          </div>
+          <div class="col me-2 mb-3 kotak">
+            <div class="card">
+              <img src="assets/image/newproduk/fp.png" alt="..." />
+              <div class="card-body">
+                <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
+                <p id="price">$ 40.0</p>
+                <p id="seller">Zalora Cloth</p>
+                <div class="rating">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
+                  <img src="assets/image/Star/Star.png" alt="">
                 </div>
               </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col me-2 mb-3 kotak">
-                <div class="card">
-                  <img src="assets/image/newproduk/fp.png" alt="..." />
-                  <div class="card-body">
-                    <p class="card-text" id="name">Men's formal suit -<br />Black & White</p>
-                    <p id="price">$ 40.0</p>
-                    <p id="seller">Zalora Cloth</p>
-                    <div class="rating">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                        <img src="assets/image/Star/Star.png" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-  
-              <!-- <div class="col">10</div>
+            </div>
+          </div>
+
+          <!-- <div class="col">10</div>
               <div class="col">11</div>
               <div class="col">12</div>
               <div class="col">13</div>
               <div class="col">14</div> -->
-            </div>
-          </div>
-        </section>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0d45c8edfc.js" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>

@@ -36,7 +36,7 @@ main {
 .kotak {
   width: 206px;
   height: 220px;
-  background-color: #cc0b04;
+  /* background-color: #cc0b04; */
   border-radius: 8px;
   color: white;
   font-size: 30px;

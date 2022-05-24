@@ -39,6 +39,7 @@ h4 {
   color: white;
 }
 
-#reg {
+p a {
   color: #db3022;
+  text-decoration: none;
 }

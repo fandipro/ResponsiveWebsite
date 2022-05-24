@@ -16,23 +16,28 @@
   <body>
     <header>
       <nav>
-        <div class="containerme">
-          <div class="logo ms-1 d-flex">
-            <img src="logoBlanja.png" alt="logo" />
-            <h4 class="mt-3 fw-bold">Blanja</h4>
+        <div class="container">
+          <div class="kolomNavbar d-flex align-items-center mt-4">
+              <div class="logo d-flex">
+                  <img src="logoBlanja.png" alt="">
+                  <p class="logoTitle fw-bold fs-4 mt-3">Blanja</p>
+              </div>
+              <div class="searchAndsort d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                  <!-- <button class="btn btn-light me-2" type="submit"><img src="Vector.png" alt=""></button> -->
+                  <div class="sort d-flex align-items-center justify-content-center">
+                      <img src="Vector.png" alt="">
+                  </div>
+              </div>
+              <div class="tools justify-content-center align-items-center d-flex">
+                  <div class="cart mb-1">
+                      <img class="me-4" src="shopping-cart (2) 1.png" alt="cart" />
+                  </div>
+                  <button class="btnLogin me-2">Login</button>
+                  <button class="btnSignUp">Sign Up</button>
+              </div>
           </div>
-          <div class="search d-flex text-center">
-            <input type="password" class="form-control" id="inputPassword2" placeholder="Search" />
-            <div class="square text-center">
-              <img class="filterButton" src="Vector.png" alt="" />
-            </div>
-          </div>
-          <div class="tools d-flex">
-            <img class="me-4 mt-2" src="assets/image/shopping-cart (2) 1.png" alt="" />
-            <button class="btnLogin">Login</button>
-            <button class="btnSignIn ms-3">Sign In</button>
-          </div>
-        </div>
+      </div>
       </nav>
     </header>
 
@@ -41,7 +46,7 @@
         <div class="container">
           <h6 class="mt-5">Home > Category > T-Shirt</h6>
           <div class="row">
-            <div class="col-4 mt-5">
+            <div class="col-5 mt-5">
               <div class="main-photo me-3 d-flex flex-column">
                 <img src="assets/image/bajubesar.png" alt="" />
               </div>
@@ -63,7 +68,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-8 mt-5">
+            <div class="col-7 mt-5">
               <p class="fw-bold fs-4">Baju muslim pria</p>
               <p class="fw-light text-success">Zalora Cloth</p>
               <div class="rating d-flex">

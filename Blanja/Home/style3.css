@@ -1,0 +1,320 @@
+@font-face
+
+/*perintah untuk memanggil font eksternal*/
+    {
+    font-family: "Metropolis";
+    src: url("font/Metropolis/Metropolis-Regular.otf");
+    /*memanggil file font eksternalnya di folder nexa*/
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02), 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028), 12.5px 12.5px 10px rgba(0, 0, 0, 0.035), 22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042), 41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+        100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+body {
+    font-family: "Metropolis";
+}
+
+main {
+    padding-top: 5rem;
+}
+
+.kolomNavbar {
+    position: relative;
+
+    /* background-color: rebeccapurple; */
+    /* width: 100%; */
+}
+
+.logo {
+    /* float: left; */
+    flex-grow: 1;
+    /* background-color: red; */
+}
+
+.logoTitle {
+    color: #DB3022;
+}
+
+.searchAndsort {
+    /* position: absolute; */
+    left: 12%;
+    /* width: 60%; */
+    /* float: left; */
+    flex-grow: 4;
+}
+
+
+.form-control {
+    width: 507px;
+    height: 35px;
+    border-radius: 50px;
+    /* position: absolute;   */
+}
+
+.tools {
+    /* position: absolute; */
+    /* right: 20px; */
+    /* width: 20%; */
+    /* float: right; */
+    text-align: right;
+    flex-grow: 2;
+    /* background-color: yellow; */
+}
+
+.btn {
+    border: 1px solid grey;
+    /* position: absolute; */
+    left: 60%;
+}
+
+.btnLogin,
+.btnSignUp {
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 25px;
+    background-color: #db3022;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    /* position: absolute; */
+}
+
+.btnSignUp {
+    color: #db3022;
+    background-color: white;
+    border: 1px solid #9b9b9b;
+    right: 20px;
+}
+
+.cart {
+    margin-right: 20px;
+    width: 22px;
+    height: 15px;
+
+    /* position: absolute; */
+}
+
+.sort {
+    /* display: none; */
+    width: 40px;
+    height: 40px;
+    border-radius: 12px;
+    border: 1px solid grey;
+}
+
+/* Category */
+
+.kotak {
+    width: 206px;
+    height: 220px;
+    /* background-color: #cc0b04; */
+    border-radius: 8px;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.kotak p {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+}
+
+#t-shirts {
+    background-color: #DB3022;
+}
+
+#shorts {
+    background-color: #1c3391;
+}
+
+#jacket {
+    background-color: #f67b02;
+}
+
+#pants {
+    background-color: #e31f51;
+}
+
+#shoes {
+    background-color: #57cd9e;
+}
+
+#pants img {
+    margin-top: 17px;
+    margin-left: -17px;
+}
+
+#shoes img {
+    margin-top: 17px;
+}
+
+.circle {
+    height: 52px;
+    width: 52px;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(181, 181, 181, 0.25);
+    /* position: absolute; */
+    margin-top: 90px;
+    padding-top: 10px;
+    margin-left: -20px;
+    z-index: 45;
+    text-align: center;
+}
+
+/* list produk */
+.card img {
+    margin-top: -41px;
+    border-radius: 5px;
+}
+
+.card-body {
+    height: 110px;
+}
+
+#name,
+#price,
+#seller {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: -50px;
+    text-align: left;
+}
+
+#price {
+    color: #db3022;
+    font-weight: 500;
+    margin-top: 50px;
+}
+
+#seller {
+    color: #db3022;
+    font-weight: 500;
+    margin-top: 70px;
+}
+
+.rating {
+    /* background-color: red; */
+    height: 30px;
+    text-align: left;
+    margin-top: 75px;
+    margin-left: -15px;
+}
+
+.caraousell {
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.j1 {
+    position: absolute;
+    left: 0;
+    /* height: 100%; */
+    width: 6%;
+}
+
+.j2 {
+    position: absolute;
+    /* width: 42px; */
+    width: 40%;
+    /* left: 150px; */
+    left: 9%;
+}
+
+.j3 {
+    /* margin-left: 490px; */
+    margin-left: 50%;
+    position: absolute;
+    /* width: 456px; */
+    width: 40%;
+}
+
+.j4 {
+    right: 0;
+    position: absolute;
+    width: 6%;
+}
+
+@media screen and (max-width: 992px) {
+    .form-control {
+        width: 80%;
+        /* height: 35px; */
+        margin-left: 30px;
+        height: 15%;
+
+    }
+
+    /* .sort {
+        width: 20px;
+        height: 20px;
+    } */
+
+    .tools {
+        width: 30%;
+        background-color: yellow;
+        text-align: right;
+    }
+
+    .btnLogin,
+    .btnSignUp {
+        width: 50px;
+        height: 15px;
+        font-size: 5px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .logo {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .sort {
+        border: none;
+    }
+    .form-control {
+        width: 50%;
+        height: 15px;
+        margin-top: 12px;
+    }
+
+    .cart {
+        margin-top: -12px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .tools {
+        width: 30%;
+    }
+
+    .btnLogin,
+    .btnSignUp {
+        width: 30px;
+        height: 15px;
+        font-size: 5px;
+    }
+}
+
+/* @media screen and (min-width: 1199px) {
+    .form-control {
+      width: 500px;
+      height: 45px;
+      border-radius: 50px;
+      margin-left: 50px;
+    }
+  }
+   */

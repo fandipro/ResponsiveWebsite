@@ -20,11 +20,11 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container">
                 <a class="navbar-brand" href="#"> <img src="logoBlanja.png" alt="" width="32" height="44"
-                        class="me-2" /> Blanja
+                        class="me-2" /> <span id="title" class="fw-bold">Blanja</span>
                 </a>
                 <form class="d-flex ms-auto search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn filter btn-light me-2" type="submit"><i class="bi bi-funnel"></i></button>
+                    <input class="form-control search me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btnSort filter btn-light me-2" type="submit"><i class="bi bi-funnel"></i></button>
                 </form>
                 <div class="tools"></div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -57,7 +57,7 @@
                 <div class="coulumnProfile">
                     <div class="edit d-flex flex-column my-auto mt-5">
                         <div class="per d-flex">
-                            <img src="person.png" alt="cristianPhoto">
+                            <img src="minCristian.png" alt="cristianPhoto">
                             <div class="name d-flex flex-column">
                                 <p class="fw-bold ms-3">Johanes Mikael</p>
                                 <i class="bi bi-pencil ms-3">
@@ -86,28 +86,28 @@
                         <div class="row">
                             <div class="col">
                                 <h5>My profile</h5>
-                                <p>Manage your profile information</p>
+                                <p style="font-weight: lighter; color: #9B9B9B;">Manage your profile information</p>
                                 <hr>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-7 bg me-4">
                                 <div class="mb-3 row ms-1">
-                                    <label for="inputPassword" class="col-sm-2 col-form-label">Nama</label>
+                                    <label for="name" class="col-sm-2 col-form-label">Nama</label>
                                     <div class="col-sm-10">
-                                        <input type="password" placeholder="Fandi Prasetyo" class="form-control" id="inputPassword">
+                                        <input type="text" placeholder="Johanes Mikael" class="form-control" id="inputName">
                                     </div>
                                 </div>
                                 <div class="mb-3 row ms-1">
-                                    <label for="inputPassword" class="col-sm-2 col-form-label">Email</label>
+                                    <label for="email" class="col-sm-2 col-form-label">Email</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="inputPassword">
+                                        <input type="text" placeholder="Johanes@gmail.com" class="form-control" id="inputEmail">
                                     </div>
                                 </div>
                                 <div class="mb-3 row ms-1">
-                                    <label for="inputPassword" class="col-sm-2 col-form-label">Phone Number</label>
+                                    <label for="phoneNumber" class="col-sm-2 col-form-label">Phone Number</label>
                                     <div class="col-sm-10">
-                                        <input type="password" class="form-control" id="inputPassword">
+                                        <input type="text" placeholder="08901289012" class="form-control" id="inputPhoneNumber">
                                     </div>
                                 </div>
                                 <div class="mb-3 row ms-1">
@@ -146,7 +146,7 @@
                             </div>
                             <div class="col-3 ms-4 paspoto">
                                 <img src="cristian.png" alt="">
-                                <button type="button" class="btn btn-danger btn-light rounded-pill ms-">Select Image</button>
+                                <button type="button" class="btnSelect btn-light rounded-pill mt-3">Select Image</button>
                             </div>
                         </div>
 
